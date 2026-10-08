@@ -46,7 +46,7 @@ Key files:
 - `ROVER6.md` — ROVER6's constitution (v1.5)
 - `S4TA.md` — S4TA's constitution (v2.0)
 - `GOALS.md` — agency mission board, priorities, status
-- `MODEL_ROUTING.md` — who does what, when, at what cost
+- `MODEL_ROUTING.md` — who does what, when, at what cost *(referenced by earlier handovers but never committed; write it or drop it)*
 - `MSH_active.md` — current mission heuristics (empty = standby)
 - `handoffs/` — all session handover records
 - `rover6-local/` — ROVER6's local scripts (clone and run on PC)

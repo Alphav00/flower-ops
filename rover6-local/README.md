@@ -23,11 +23,9 @@ bash boot.sh
 ```
 This pulls your open missions from GitHub Issues and reports online to Discord.
 
-## Complete pending missions
-```bash
-bash issue1_audit.sh   # Environment audit → posts to Issue #1
-bash issue2_setup.sh   # Ecosystem test → posts to Issue #2
-```
+## Completed one-shot missions
+`archive/issue1_audit.sh` and `archive/issue2_setup.sh` ran for Issues #1 and #2 (both closed).
+Kept for reference only; do not re-run.
 
 ## Start Discord bot (background)
 ```bash
@@ -35,7 +33,7 @@ nohup python3 discord_bot.py > bot.log 2>&1 &
 echo "Bot PID: $!"
 ```
 Chi can then type in Discord:
-- `!assign ROVER6 <task>` → opens GitHub Issue
+- `!ROVER6 <task>` / `!Q <task>` / `!SATA <task>` → opens GitHub Issue for that agent
 - `!status` → lists open issues
 - `!help` → command list
 
